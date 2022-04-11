@@ -17,7 +17,7 @@ const allCountries = (()=>{
     })
 })
 
-// allCountries();
+allCountries();
 function showCountry(data) {
   const country = document.createElement("div");
   country.classList.add("country");
